@@ -1,9 +1,9 @@
 name: Weekly Auto Generate Config
 
 on:
-  schedule:
-    # 每周五 00:00（北京时间） = 周四 16:00（UTC）
-    - cron: "0 16 * * 4"
+#  schedule:
+#    # 每周五 00:00（北京时间） = 周四 16:00（UTC）
+#    - cron: "0 16 * * 4"
 
   # 允许手动触发，方便调试
   workflow_dispatch:
